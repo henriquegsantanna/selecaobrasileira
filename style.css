@@ -1,6 +1,8 @@
 body{
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: rgb(255, 248, 59); /* Cor de fundo da página */
+    background-image: url("selecao.jpg"); /* Foto de fundo da página */
+    background-size: 2000px 1000px; /* Define a largura e altura em pixels */
+    background-position: center;
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -16,7 +18,7 @@ body{
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: blue; /* Cor do texto */
+    color: yellow; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.1rem; /* Espaçamento entre letras */
 }
@@ -46,8 +48,8 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: blue; /* Cor de fundo do botão */
-    color: #F5F7F8; /* Cor do texto do botão */
+    background-color: yellow; /* Cor de fundo do botão */
+    color: blue; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
